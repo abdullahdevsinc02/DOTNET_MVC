@@ -1,9 +1,54 @@
+@model IEnumerable<Category>
 
 @{
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+
+<div class="d-flex justify-content-between my-3">
+    <div>
+        <h1 class="text-primary"> Categories </h1>
+    </div>
+    <div>
+        <a class="btn btn-primary" asp-controller="Category" asp-action="Create"><i class="bi bi-plus-circle-fill"></i> Create </a>
+    </div>
+</div>
+
+<table class="table">
+    <thead class="thead-light bg-dark text-light">
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Display Order</th>
+            <th scope="col">Created Date</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model)
+        {
+            <tr>
+                <td>
+                    @item.Id
+                </td>
+                <td>
+                    @item.Name
+                </td>
+
+                <td>
+                    @item.DisplayOrder
+                </td>
+                <td>
+                    @item.CreatedDateTime
+                </td>
+                <td>
+                    <a class="btn btn-primary" asp-controller="Category" asp-action="Edit" asp-route-id="@item.Id"><i class="bi bi-pencil"></i></a>
+                    <a class="btn btn-danger" asp-controller="Category" asp-action="Delete" asp-route-id="@item.Id"><i class="bi bi-trash-fill"></i></a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
