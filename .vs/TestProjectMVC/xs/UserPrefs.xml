@@ -1,0 +1,48 @@
+﻿<Properties StartupConfiguration="{5857784C-8AD0-4750-9321-553201D6060E}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestProject.DataAccessLayer/Data/ApplicationDbContext.cs">
+    <Files>
+      <File FileName="TestProjectMVC/appsettings.json" />
+      <File FileName="TestProjectMVC/Program.cs" />
+      <File FileName="TestProjectMVC/wwwroot/css/site.css" />
+      <File FileName="TestProjectMVC/Views/Shared/_Layout.cshtml" />
+      <File FileName="../../../../usr/local/share/dotnet/sdk/7.0.202/Microsoft.Common.CurrentVersion.targets" />
+      <File FileName="TestProjectMVC/Controllers/HomeController.cs" />
+      <File FileName="TestProjectMVC/Views/_ViewImports.cshtml" />
+      <File FileName="TestProject.DataAccessLayer/Migrations/20230413200120_AddCategoryToDb.Designer.cs" />
+      <File FileName="TestProject.DataAccessLayer/Data/ApplicationDbContext.cs" Line="3" Column="23" />
+      <File FileName="TestProject.DataAccessLayer/Migrations/20230413200120_AddCategoryToDb.cs" />
+      <File FileName="../../.nuget/NuGet/NuGet.Config" />
+      <File FileName="TestProjectMVC/Views/Home/Index.cshtml" />
+      <File FileName="TestProjectMVC/Controllers/CategoryController.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TestProjectMVC" expanded="True">
+            <Node name="NuGet.Config files" expanded="True" />
+            <Node name="TestProject.DataAccessLayer" expanded="True">
+              <Node name="Data" expanded="True">
+                <Node name="ApplicationDbContext.cs" selected="True" />
+              </Node>
+              <Node name="Migrations" expanded="True" />
+            </Node>
+            <Node name="TestProject.Models" expanded="True" />
+            <Node name="TestProjectMVC" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.TestProjectMVC PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>
