@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace TestProjectMVC.Migrations
+namespace TestProject.DataAccessLayer.Migrations
 {
     /// <inheritdoc />
     public partial class AddCategoryToDb : Migration

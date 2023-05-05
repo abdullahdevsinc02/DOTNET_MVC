@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace TestProjectMVC.Models
+namespace TestProject.Models
 {
 	public class Category
 	{
