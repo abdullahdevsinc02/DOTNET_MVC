@@ -1,0 +1,15 @@
+/Users/dev/Projects/TestProjectMVC/TestProject.DataAccessLayer/obj/Debug/net6.0/TestProject.DataAccessLayer.csproj.AssemblyReference.cache
+/Users/dev/Projects/TestProjectMVC/TestProject.DataAccessLayer/obj/Debug/net6.0/TestProject.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dev/Projects/TestProjectMVC/TestProject.DataAccessLayer/obj/Debug/net6.0/TestProject.DataAccessLayer.AssemblyInfoInputs.cache
+/Users/dev/Projects/TestProjectMVC/TestProject.DataAccessLayer/obj/Debug/net6.0/TestProject.DataAccessLayer.AssemblyInfo.cs
+/Users/dev/Projects/TestProjectMVC/TestProject.DataAccessLayer/obj/Debug/net6.0/TestProject.DataAccessLayer.csproj.CoreCompileInputs.cache
+/Users/dev/Projects/TestProjectMVC/TestProject.DataAccessLayer/bin/Debug/net6.0/TestProject.DataAccessLayer.deps.json
+/Users/dev/Projects/TestProjectMVC/TestProject.DataAccessLayer/bin/Debug/net6.0/TestProject.DataAccessLayer.dll
+/Users/dev/Projects/TestProjectMVC/TestProject.DataAccessLayer/bin/Debug/net6.0/TestProject.DataAccessLayer.pdb
+/Users/dev/Projects/TestProjectMVC/TestProject.DataAccessLayer/bin/Debug/net6.0/TestProject.Models.dll
+/Users/dev/Projects/TestProjectMVC/TestProject.DataAccessLayer/bin/Debug/net6.0/TestProject.Models.pdb
+/Users/dev/Projects/TestProjectMVC/TestProject.DataAccessLayer/obj/Debug/net6.0/TestProject.DataAccessLayer.csproj.CopyComplete
+/Users/dev/Projects/TestProjectMVC/TestProject.DataAccessLayer/obj/Debug/net6.0/TestProject.DataAccessLayer.dll
+/Users/dev/Projects/TestProjectMVC/TestProject.DataAccessLayer/obj/Debug/net6.0/refint/TestProject.DataAccessLayer.dll
+/Users/dev/Projects/TestProjectMVC/TestProject.DataAccessLayer/obj/Debug/net6.0/TestProject.DataAccessLayer.pdb
+/Users/dev/Projects/TestProjectMVC/TestProject.DataAccessLayer/obj/Debug/net6.0/ref/TestProject.DataAccessLayer.dll

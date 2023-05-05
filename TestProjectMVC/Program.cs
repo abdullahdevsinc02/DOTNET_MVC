@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using TestProject.DataAccessLayer;
+using TestProject.DataAccessLayer.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using TestProject.DataAccessLayer;
+using TestProject.DataAccessLayer.Data;
 using TestProject.Models;
 
 namespace TestProjectMVC.Controllers

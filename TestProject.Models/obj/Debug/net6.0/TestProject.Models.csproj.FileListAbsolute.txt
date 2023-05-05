@@ -1,0 +1,12 @@
+/Users/dev/Projects/TestProjectMVC/TestProject.Models/bin/Debug/net6.0/TestProject.Models.deps.json
+/Users/dev/Projects/TestProjectMVC/TestProject.Models/bin/Debug/net6.0/TestProject.Models.dll
+/Users/dev/Projects/TestProjectMVC/TestProject.Models/bin/Debug/net6.0/TestProject.Models.pdb
+/Users/dev/Projects/TestProjectMVC/TestProject.Models/obj/Debug/net6.0/TestProject.Models.csproj.AssemblyReference.cache
+/Users/dev/Projects/TestProjectMVC/TestProject.Models/obj/Debug/net6.0/TestProject.Models.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dev/Projects/TestProjectMVC/TestProject.Models/obj/Debug/net6.0/TestProject.Models.AssemblyInfoInputs.cache
+/Users/dev/Projects/TestProjectMVC/TestProject.Models/obj/Debug/net6.0/TestProject.Models.AssemblyInfo.cs
+/Users/dev/Projects/TestProjectMVC/TestProject.Models/obj/Debug/net6.0/TestProject.Models.csproj.CoreCompileInputs.cache
+/Users/dev/Projects/TestProjectMVC/TestProject.Models/obj/Debug/net6.0/TestProject.Models.dll
+/Users/dev/Projects/TestProjectMVC/TestProject.Models/obj/Debug/net6.0/refint/TestProject.Models.dll
+/Users/dev/Projects/TestProjectMVC/TestProject.Models/obj/Debug/net6.0/TestProject.Models.pdb
+/Users/dev/Projects/TestProjectMVC/TestProject.Models/obj/Debug/net6.0/ref/TestProject.Models.dll
