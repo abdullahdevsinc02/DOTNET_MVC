@@ -1,8 +1,8 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
-using TestProjectMVC.Models;
+using TestProject.Models;
 
-namespace TestProjectMVC.Data
+namespace TestProject.DataAccessLayer
 {
 	public class ApplicationDbContext : DbContext
 	{
