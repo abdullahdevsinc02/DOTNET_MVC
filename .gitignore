@@ -1,0 +1,80 @@
+# Build results
+bin/
+obj/
+**/bin/
+**/obj/
+
+# .NET Core
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+artifacts/
+**/Properties/launchSettings.json
+
+# Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.ide
+.vs/
+.vscode/
+*.userprefs
+*.docstates
+
+# Test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Resharper
+resharper*/ 
+*.ReSharper*/ 
+*.sln.DotSettings.user
+*.ReSharper.user
+*.resharper
+
+# Windows Azure
+csx/
+*.build.csdef
+
+# Windows Store Apps
+AppPackages/
+BundleArtifacts/
+Package.StoreAssociation.xml
+_Package/
+*.appx
+*.appxbundle
+*.appxupload
+
+# Android
+*.apk
+*.aab
+*.ap_
+*.aab_
+*.keystore
+
+# iOS
+*.ipa
+*.xcarchive
+*.xcworkspace
+*.xcuserstate
+*.xcuserdata/
+*.dSYM.zip
+*.dSYM
+
+# Others
+*.Cache
+logs/
+npm-debug.log*
+*.config
+*.sln.docstates
+*.suo
+*.cache
+*.resharper.user
+*.resharper.user.*
+*._scc
+*.scc
+*.sccp
+*.vssscc
+.DS_Store
