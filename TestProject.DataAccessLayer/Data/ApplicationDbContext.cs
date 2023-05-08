@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using TestProject.Models;
 
-namespace TestProject.DataAccessLayer
+namespace TestProject.DataAccessLayer.Data
 {
 	public class ApplicationDbContext : DbContext
 	{
