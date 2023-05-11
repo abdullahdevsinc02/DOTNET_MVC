@@ -1,10 +1,13 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using TestProject.DataAccessLayer.Data;
+using TestProject.DataAccessLayer.Infrastructure.IRepository;
+using TestProject.DataAccessLayer.Infrastructure.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
     DbContextOptionsBuilder dbContextOptionsBuilder = options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
