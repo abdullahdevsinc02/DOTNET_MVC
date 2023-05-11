@@ -4,20 +4,21 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using TestProject.DataAccessLayer.Data;
+using TestProject.DataAccessLayer.Infrastructure.IRepository;
 using TestProject.Models;
 
 namespace TestProjectMVC.Controllers
 {
     public class CategoryController : Controller
     {
-        ApplicationDbContext _db;
-        public CategoryController(ApplicationDbContext db)
+        private IUnitOfWork _unitOfWork;
+        public CategoryController(IUnitOfWork unitOfWork)
         {
-            _db = db;
+            _unitOfWork = unitOfWork;
         }
         public IActionResult Index()
         {
-            IEnumerable<Category> categories = _db.categories;
+            IEnumerable<Category> categories = _unitOfWork.Category.GetAll();
             return View(categories);
         }
 
@@ -29,7 +30,7 @@ namespace TestProjectMVC.Controllers
                 return NotFound();
             }
 
-            var category = _db.categories.Find(id);
+            var category = _unitOfWork.Category.GetT(x=>x.Id == id);
 
             if (category == null)
             {
@@ -44,8 +45,8 @@ namespace TestProjectMVC.Controllers
         {
             if (ModelState.IsValid)
             {
-                _db.categories.Update(category);
-                _db.SaveChanges();
+                _unitOfWork.Category.Update(category);
+                _unitOfWork.Save();
                 TempData["success"] = "Category updated Successfully!";
 
                 return RedirectToAction("Index");
@@ -65,8 +66,8 @@ namespace TestProjectMVC.Controllers
         {
             if(ModelState.IsValid)
             {
-                _db.categories.Add(category);
-                _db.SaveChanges();
+                _unitOfWork.Category.Add(category);
+                _unitOfWork.Save();
                 TempData["success"] = "Category created Successfully!";
 
                 return RedirectToAction("Index");
@@ -82,7 +83,7 @@ namespace TestProjectMVC.Controllers
                 return NotFound();
             }
 
-            var category = _db.categories.Find(id);
+            var category = _unitOfWork.Category.GetT(x=>x.Id == id);
 
             if (category == null)
             {
@@ -96,14 +97,14 @@ namespace TestProjectMVC.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult DeleteData(int? id)
         {
-            var category = _db.categories.Find(id);
+            var category = _unitOfWork.Category.GetT(x=>x.Id == id);
             if (category == null)
             {
                 return NotFound();
             }
 
-            _db.categories.Remove(category);
-            _db.SaveChanges();
+            _unitOfWork.Category.Delete(category);
+            _unitOfWork.Save();
             TempData["success"] = "Category Deleted Successfully!";
 
             return RedirectToAction("Index");
